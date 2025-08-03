@@ -2,11 +2,7 @@
   "/": "pages/index.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
   "/dashboard": "pages/dashboard.js",
-  "/discoverSearch": "pages/discoverSearch.js",
   "/login": "pages/login.js",
-  "/myConnections": "pages/myConnections.js",
-  "/profile": "pages/profile.js",
-  "/view_page/[username]": "pages/view_page/[username].js"
+  "/profile": "pages/profile.js"
 }
