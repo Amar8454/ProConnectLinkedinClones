@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 90svh;
+  align-items: center;
+}
+
+.cardContainer {
+  height: 80vh;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80vw;
+  background: white;
+  box-shadow: 10px 10px 15px rgb(173, 173, 173);
+}
+.cardContainerLeft {
+  flex: 0.6;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cardheading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.3rem;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 1.5rem;
+}
+.inputField {
+  padding-inline: 1.3rem;
+  padding-block: 0.8rem;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid silver;
+  width: 100%;
+}
+.inputFieldRow {
+  width: fit-content;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.cardContainerRight {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  background: rgb(5, 5, 79);
+  color: white;
+  padding-inline: 1.2rem;
+}
+
+.SignButton {
+  background-color: rgb(173, 173, 173);
+  font-weight: bold;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+}

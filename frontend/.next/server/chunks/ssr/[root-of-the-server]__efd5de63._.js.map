@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/lenovo/Desktop/LinkdinClone/frontend/src/pages/index.js"],"sourcesContent":["router\n\n\n\nexport default function Home() {\n  return (\n    <>\n     <div className=\"conti\">\n      <div className=\"MainContainer\">\n        <div className=\"mainLeftContainer\">\n          <p>Connect with Friends without Exaggeration</p>\n          <p>A True social media platform , with stories no blufs</p>\n          <button>\n            router.push(\"/login\")\n          </button>\n        </div>\n        <div className=\"mainRightContainer\">\n          <img src=\"images/network.png\" alt=\"\" />\n        </div>\n      </div>\n     </div>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;AAIe,SAAS;IACtB,qBACE;kBACC,cAAA,qKAAC;YAAI,WAAU;sBACd,cAAA,qKAAC;gBAAI,WAAU;;kCACb,qKAAC;wBAAI,WAAU;;0CACb,qKAAC;0CAAE;;;;;;0CACH,qKAAC;0CAAE;;;;;;0CACH,qKAAC;0CAAO;;;;;;;;;;;;kCAIV,qKAAC;wBAAI,WAAU;kCACb,cAAA,qKAAC;4BAAI,KAAI;4BAAqB,KAAI;;;;;;;;;;;;;;;;;;;;;;;AAM5C","debugId":null}}]
+}

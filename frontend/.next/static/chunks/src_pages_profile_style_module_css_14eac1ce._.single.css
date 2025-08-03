@@ -1,0 +1,205 @@
+/* [project]/src/pages/profile/style.module.css [client] (css) */
+.style-module__Si6kTq__cotainer {
+  background: #e6e6e6;
+  flex-direction: column;
+  gap: .8rem;
+  padding: 1.3rem;
+  display: flex;
+}
+
+.style-module__Si6kTq__backDropContianer {
+  background: url("https://wallpaperaccess.com/full/1131217.jpg") 0 0 / cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 30vh;
+  position: relative;
+}
+
+.style-module__Si6kTq__backDropContianer > img {
+  object-fit: cover;
+  text-align: center;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  position: absolute;
+  bottom: -30%;
+  left: 8%;
+}
+
+.style-module__Si6kTq__profileContianer_details {
+  padding-top: 4.6rem;
+}
+
+.style-module__Si6kTq__backDrop_overlay {
+  object-fit: cover;
+  text-align: center;
+  cursor: pointer;
+  z-index: 4;
+  color: #fff;
+  opacity: .1;
+  border-radius: 59%;
+  justify-content: center;
+  align-items: center;
+  width: 5em;
+  height: 5em;
+  transition: all .4s;
+  display: flex;
+  position: absolute;
+  bottom: -30%;
+  left: 8%;
+}
+
+.style-module__Si6kTq__backDrop_overlay:hover {
+  opacity: .6;
+  background: #000;
+}
+
+.style-module__Si6kTq__card {
+  align-items: center;
+  gap: 1.2rem;
+  display: flex;
+}
+
+.style-module__Si6kTq__card_ProfileContainer {
+  display: flex;
+}
+
+.style-module__Si6kTq__card_ProfileContainer > img {
+  object-fit: cover;
+  width: 4rem;
+  height: 3.4rem;
+  margin-top: .5rem;
+}
+
+.style-module__Si6kTq__workHistoryPage {
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  width: 100%;
+  padding-top: 1.4rem;
+  display: flex;
+}
+
+.style-module__Si6kTq__workHistoryCard {
+  border-radius: 10px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  box-shadow: 5px 5px 5px #adadad;
+}
+
+.style-module__Si6kTq__profileContianer_details input {
+  border-style: none;
+  outline: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2rem;
+}
+
+.style-module__Si6kTq__userNameEdit {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.style-module__Si6kTq__updateBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #00f;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.style-module__Si6kTq__profileContianer_details textarea {
+  border-style: none;
+  outline: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.style-module__Si6kTq__AddWorkBtn {
+  cursor: pointer;
+  background: #fff;
+  border: 1px dotted gray;
+  border-radius: 10px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.style-module__Si6kTq__inputField {
+  border: 1px solid silver;
+  border-radius: 10px;
+  outline: none;
+  width: 100%;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.style-module__Si6kTq__commentContainer {
+  z-index: 2;
+  background: rgba(0, 0, 0, .7);
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.style-module__Si6kTq__allComment {
+  background: #fff;
+  border-radius: 10px;
+  width: 40vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1.4rem;
+  position: relative;
+}
+
+.style-module__Si6kTq__updateAddBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #00f;
+  border: none;
+  border-radius: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.style-module__Si6kTq__profileContiane_flex {
+  gap: 1.2rem;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .style-module__Si6kTq__profileContiane_flex {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=src_pages_profile_style_module_css_14eac1ce._.single.css.map*/

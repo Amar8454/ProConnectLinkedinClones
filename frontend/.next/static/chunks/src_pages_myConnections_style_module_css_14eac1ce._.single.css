@@ -1,0 +1,33 @@
+/* [project]/src/pages/myConnections/style.module.css [client] (css) */
+.style-module__56B6GG__userCard {
+  cursor: pointer;
+  border-radius: 20px;
+  align-items: center;
+  gap: 1.2rem;
+  width: 100%;
+  padding: 1.3rem;
+  display: flex;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.style-module__56B6GG__profilePicture > img {
+  border-radius: 50%;
+  width: 3.5rem;
+}
+
+.style-module__56B6GG__accetpBtn {
+  color: #fff;
+  cursor: pointer;
+  background: rgba(3, 93, 183, .906);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+/*# sourceMappingURL=src_pages_myConnections_style_module_css_14eac1ce._.single.css.map*/

@@ -1,0 +1,53 @@
+/* [project]/src/styles/Home.module.css [client] (css) */
+.Home-module__Ho9lYW__container {
+  padding: 1.2rem;
+  font-family: Poppins;
+}
+
+.Home-module__Ho9lYW__maincontainer {
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: 80vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+}
+
+.Home-module__Ho9lYW__mainLeftContainer, .Home-module__Ho9lYW__mainRightContainer {
+  flex: .5;
+}
+
+.Home-module__Ho9lYW__mainLeftContainer > p:first-child {
+  background: -webkit-linear-gradient(45deg, #000 #9d9d9d);
+  -webkit-text-fill-color: #e14262;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 2.5rem;
+}
+
+.Home-module__Ho9lYW__mainLeftContainer > p:nth-child(2) {
+  color: #615f5f;
+  margin-top: .5rem;
+  font-size: 1.5rem;
+}
+
+.Home-module__Ho9lYW__joinButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #8a2be2;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: .8rem;
+  padding: .8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.Home-module__Ho9lYW__imageBox {
+  width: 200px;
+  height: 200px;
+}
+
+/*# sourceMappingURL=src_styles_Home_module_bcc10cd5.css.map*/

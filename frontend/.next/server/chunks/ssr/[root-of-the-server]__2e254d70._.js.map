@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/lenovo/Desktop/LinkdinClone/frontend/src/component/navbar/NavIndex.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nconst NavbarIndex = () => {\r\n  return <div>Hello</div>;\r\n};\r\n\r\nexport default NavIndex;\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,cAAc;IAClB,qBAAO,qKAAC;kBAAI;;;;;;AACd;uCAEe","debugId":null}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/lenovo/Desktop/LinkdinClone/frontend/src/layout/userLayout/index.jsx"],"sourcesContent":["import NavIndex from '@/component/navbar/NavIndex'\r\nimport React from 'react'\r\n\r\nconst UserLayout = ({children}) => {\r\n  return (\r\n    <div>\r\n      <NavIndex/>\r\n     {children}\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default UserLayout\r\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEA,MAAM,aAAa,CAAC,EAAC,QAAQ,EAAC;IAC5B,qBACE,qKAAC;;0BACC,qKAAC,gIAAA,CAAA,UAAQ;;;;;YACT;;;;;;;AAGN;uCAEe","debugId":null}},
+    {"offset": {"line": 56, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/lenovo/Desktop/LinkdinClone/frontend/src/pages/login/index.jsx"],"sourcesContent":["import React from \"react\";\r\nimport UserLayout from \"../../layout/userLayout\";\r\n\r\nconst loginComponent = () => {\r\n  return <UserLayout>LoginComponent</UserLayout>;\r\n};\r\n\r\nexport default loginComponent;\r\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEA,MAAM,iBAAiB;IACrB,qBAAO,qKAAC,8HAAA,CAAA,UAAU;kBAAC;;;;;;AACrB;uCAEe","debugId":null}}]
+}

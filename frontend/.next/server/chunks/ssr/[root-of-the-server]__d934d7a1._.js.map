@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/lenovo/Desktop/LinkdinClone/frontend/src/pages/discoverSearch/index.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nconst discoverSearch = () => {\r\n  return <div>search</div>;\r\n};\r\n\r\nexport default discoverSearch;\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,iBAAiB;IACrB,qBAAO,qKAAC;kBAAI;;;;;;AACd;uCAEe","debugId":null}}]
+}

@@ -1,0 +1,22 @@
+.container {
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.joinHome {
+  cursor: pointer;
+}
+
+.joinButton {
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+}

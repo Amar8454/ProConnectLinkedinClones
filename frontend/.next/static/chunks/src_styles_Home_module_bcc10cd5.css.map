@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/lenovo/Desktop/LinkdinClone/frontend/src/styles/Home.module.css"],"sourcesContent":[".container {\r\n  font-family: \"Poppins\";\r\n  padding: 1.2rem;\r\n}\r\n.maincontainer {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  gap: 4rem;\r\n  padding-inline: 2rem;\r\n  height: 80vh;\r\n}\r\n.mainLeftContainer {\r\n  flex: 0.5;\r\n}\r\n\r\n.mainRightContainer {\r\n  flex: 0.5;\r\n}\r\n\r\n.mainLeftContainer > p:nth-child(1) {\r\n  background: -webkit-linear-gradient(45deg , #000000 #9d9d9d);\r\n  background-clip: text;\r\n  -webkit-text-fill-color: rgb(225, 66, 98);\r\n  font-size: 2.5rem;\r\n}\r\n\r\n.mainLeftContainer > p:nth-child(2) {\r\n  margin-top: 0.5rem;\r\n  font-size: 1.5rem;\r\n  color: rgb(97, 95, 95);\r\n}\r\n\r\n.joinButton {\r\n  width: fit-content;\r\n  margin-top: 0.8rem;\r\n  padding:0.8rem;\r\n  background-color: blueviolet;\r\n  color: white;\r\n  padding-inline: 2rem;\r\n  cursor: pointer;\r\n  border-radius: 10px;\r\n}\r\n\r\n.imageBox {\r\n  height: 200px;\r\n  width: 200px;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;AAIA;;;;;;;;;;AAQA;;;;AAQA;;;;;;;;AAOA;;;;;;AAMA;;;;;;;;;;;;;AAWA","debugId":null}}]
+}

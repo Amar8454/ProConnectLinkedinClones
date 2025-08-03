@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/lenovo/Desktop/LinkdinClone/frontend/src/pages/_app.js"],"sourcesContent":["import \"@/styles/globals.css\";\nimport { Provider } from \"react-redux\";\n\nexport default function App({ Component, pageProps }) {\n  return <>\n  <Provider store={stora}>\n    <Component {...pageProps} />\n  </Provider>\n  \n  </>\n   ;\n}\n"],"names":[],"mappings":";;;;AACA;;;;;;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBAAO;kBACP,cAAA,qKAAC,4HAAA,CAAA,WAAQ;YAAC,OAAO;sBACf,cAAA,qKAAC;gBAAW,GAAG,SAAS;;;;;;;;;;;;AAK5B","debugId":null}}]
+}

@@ -1,0 +1,183 @@
+.cotainer {
+  padding: 1.3rem;
+  background: rgb(230 230 230);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.backDropContianer {
+  width: 100%;
+  height: 30vh;
+  background: url("https://wallpaperaccess.com/full/1131217.jpg");
+  background-size: cover;
+  position: relative;
+  border-radius: 20px;
+}
+
+.backDropContianer > img {
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -30%;
+  left: 8%;
+  text-align: center;
+}
+
+.profileContianer_details {
+  padding-top: 4.6rem;
+}
+
+.backDrop_overlay {
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  border-radius: 59%;
+  bottom: -30%;
+  left: 8%;
+  text-align: center;
+  transition: all 0.4s;
+  cursor: pointer;
+  z-index: 4;
+  position: absolute;
+  color: white;
+  display: flex;
+  opacity: 0.1;
+  justify-content: center;
+  align-items: center;
+}
+
+.backDrop_overlay:hover {
+  opacity: 0.6;
+  background: black;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.card_ProfileContainer {
+  display: flex;
+}
+
+.card_ProfileContainer > img {
+  width: 4rem;
+  margin-top: 0.5rem;
+  height: auto;
+  height: 3.4rem;
+  object-fit: cover;
+}
+
+.workHistoryPage {
+  display: flex;
+  gap: 1.3rem;
+  padding-top: 1.4rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.workHistoryCard {
+  min-width: fit-content;
+  padding-inline: 2.5rem;
+  padding-block: 1rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgb(173 173 173);
+}
+
+.profileContianer_details input {
+  outline: none;
+  font-size: 1.2rem;
+  width: fit-content;
+  border-style: none;
+  padding-block: 9px;
+  padding-inline: 10px;
+}
+
+.userNameEdit {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.updateBtn {
+  background: blue;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.profileContianer_details textarea {
+  outline: none;
+  width: fit-content;
+  border-style: none;
+  padding-block: 9px;
+  padding-inline: 10px;
+}
+
+.AddWorkBtn {
+  border: 1px dotted gray;
+  border-radius: 10px;
+  padding-inline: 1.3rem;
+  background: white;
+  padding-block: 1.2rem;
+  cursor: pointer;
+}
+
+.inputField {
+  padding-inline: 1.3rem;
+  padding-block: 0.8rem;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid silver;
+  width: 100%;
+}
+
+.commentContainer {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: rgb(0, 0, 0, 0.7);
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.allComment {
+  width: 40vw;
+  height: fit-content;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  padding: 1.4rem;
+}
+
+.updateAddBtn {
+  width: fit-content;
+  background: blue;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.profileContiane_flex {
+  display: flex;
+  gap: 1.2rem;
+}
+@media only screen and (max-width: 600px) {
+  .profileContiane_flex {
+    flex-direction: column;
+  }
+}

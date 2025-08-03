@@ -1,0 +1,57 @@
+/* [project]/src/pages/profile/style.module.css [client] (css) */
+
+
+/* [project]/src/layout/dashboarLayout/style.module.css [client] (css) */
+.style-module__jek3sq__HomeContainer {
+  display: flex;
+}
+
+.style-module__jek3sq__HomeContainer > div:nth-child(odd) {
+  flex: .2;
+}
+
+.style-module__jek3sq__HomeContainer > div:nth-child(2n) {
+  flex: .6;
+}
+
+.style-module__jek3sq__Home_left_container {
+  border-right: 1px solid #e1e1e4;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  display: flex;
+}
+
+.style-module__jek3sq__sideBar {
+  cursor: pointer;
+  align-items: center;
+  gap: 1.3rem;
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  transition: all .2s;
+  display: flex;
+}
+
+.style-module__jek3sq__sideBar:hover {
+  transform: scale(1.04);
+}
+
+.style-module__jek3sq__sideBar > svg {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  height: 1em;
+}
+
+.style-module__jek3sq__Home_feed_cotainer {
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+.style-module__jek3sq__Home_Extra_contianer {
+  border-left: 1px solid rgba(211, 211, 213, .663);
+  padding-left: 2rem;
+}
+
+/*# sourceMappingURL=src_fe1e8f3a._.css.map*/

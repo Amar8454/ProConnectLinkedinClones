@@ -1,0 +1,109 @@
+/* [project]/src/pages/view_page/style.module.css [client] (css) */
+.style-module__5dED4a__cotainer {
+  background: #e6e6e6;
+  flex-direction: column;
+  gap: .8rem;
+  padding: 1.3rem;
+  display: flex;
+}
+
+.style-module__5dED4a__backDropContianer {
+  background: url("https://wallpaperaccess.com/full/1131217.jpg") 0 0 / cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 30vh;
+  position: relative;
+}
+
+.style-module__5dED4a__backDropContianer img {
+  object-fit: cover;
+  text-align: center;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  position: absolute;
+  bottom: -30%;
+  left: 8%;
+}
+
+.style-module__5dED4a__profileContianer_details {
+  padding-top: 5.6rem;
+}
+
+.style-module__5dED4a__profileContianer_data {
+  gap: .7rem;
+  display: flex;
+}
+
+.style-module__5dED4a__card {
+  align-items: center;
+  gap: 1.2rem;
+  display: flex;
+}
+
+.style-module__5dED4a__card_ProfileContainer {
+  display: flex;
+}
+
+.style-module__5dED4a__card_ProfileContainer > img {
+  object-fit: cover;
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.style-module__5dED4a__connectedBtn {
+  color: #fff;
+  cursor: pointer;
+  background: rgba(3, 93, 183, .906);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+.style-module__5dED4a__connectBtn {
+  color: rgba(3, 93, 183, .906);
+  cursor: pointer;
+  border: 1px solid rgba(3, 93, 183, .906);
+  border-radius: 10px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+.style-module__5dED4a__workHistoryPage {
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  width: 100%;
+  padding-top: 1.4rem;
+  display: flex;
+}
+
+.style-module__5dED4a__workHistoryCard {
+  border-radius: 10px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  box-shadow: 10px 10px 10px #adadad;
+}
+
+@media only screen and (max-width: 600px) {
+  .style-module__5dED4a__profileContianer_data {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+}
+
+/*# sourceMappingURL=src_pages_view_page_style_module_css_14eac1ce._.single.css.map*/

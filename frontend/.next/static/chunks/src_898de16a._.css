@@ -1,0 +1,320 @@
+/* [project]/src/pages/profile/style.module.css [client] (css) */
+.style-module__Si6kTq__cotainer {
+  background: #e6e6e6;
+  flex-direction: column;
+  gap: .8rem;
+  padding: 1.3rem;
+  display: flex;
+}
+
+.style-module__Si6kTq__backDropContianer {
+  background: url("https://wallpaperaccess.com/full/1131217.jpg") 0 0 / cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 30vh;
+  position: relative;
+}
+
+.style-module__Si6kTq__backDropContianer > img {
+  object-fit: cover;
+  text-align: center;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  position: absolute;
+  bottom: -30%;
+  left: 8%;
+}
+
+.style-module__Si6kTq__profileContianer_details {
+  padding-top: 4.6rem;
+}
+
+.style-module__Si6kTq__backDrop_overlay {
+  object-fit: cover;
+  text-align: center;
+  cursor: pointer;
+  z-index: 4;
+  color: #fff;
+  opacity: .1;
+  border-radius: 59%;
+  justify-content: center;
+  align-items: center;
+  width: 5em;
+  height: 5em;
+  transition: all .4s;
+  display: flex;
+  position: absolute;
+  bottom: -30%;
+  left: 8%;
+}
+
+.style-module__Si6kTq__backDrop_overlay:hover {
+  opacity: .6;
+  background: #000;
+}
+
+.style-module__Si6kTq__card {
+  align-items: center;
+  gap: 1.2rem;
+  display: flex;
+}
+
+.style-module__Si6kTq__card_ProfileContainer {
+  display: flex;
+}
+
+.style-module__Si6kTq__card_ProfileContainer > img {
+  object-fit: cover;
+  width: 4rem;
+  height: 3.4rem;
+  margin-top: .5rem;
+}
+
+.style-module__Si6kTq__workHistoryPage {
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  width: 100%;
+  padding-top: 1.4rem;
+  display: flex;
+}
+
+.style-module__Si6kTq__workHistoryCard {
+  border-radius: 10px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  box-shadow: 5px 5px 5px #adadad;
+}
+
+.style-module__Si6kTq__profileContianer_details input {
+  border-style: none;
+  outline: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2rem;
+}
+
+.style-module__Si6kTq__userNameEdit {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.style-module__Si6kTq__updateBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #00f;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.style-module__Si6kTq__profileContianer_details textarea {
+  border-style: none;
+  outline: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.style-module__Si6kTq__AddWorkBtn {
+  cursor: pointer;
+  background: #fff;
+  border: 1px dotted gray;
+  border-radius: 10px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.style-module__Si6kTq__inputField {
+  border: 1px solid silver;
+  border-radius: 10px;
+  outline: none;
+  width: 100%;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.style-module__Si6kTq__commentContainer {
+  z-index: 2;
+  background: rgba(0, 0, 0, .7);
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.style-module__Si6kTq__allComment {
+  background: #fff;
+  border-radius: 10px;
+  width: 40vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1.4rem;
+  position: relative;
+}
+
+.style-module__Si6kTq__updateAddBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #00f;
+  border: none;
+  border-radius: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.style-module__Si6kTq__profileContiane_flex {
+  gap: 1.2rem;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .style-module__Si6kTq__profileContiane_flex {
+    flex-direction: column;
+  }
+}
+
+/* [project]/src/layout/dashboarLayout/style.module.css [client] (css) */
+.style-module__jek3sq__HomeContainer {
+  display: flex;
+}
+
+.style-module__jek3sq__HomeContainer > div:nth-child(odd) {
+  flex: .2;
+}
+
+.style-module__jek3sq__HomeContainer > div:nth-child(2n) {
+  flex: .6;
+}
+
+.style-module__jek3sq__Home_left_container {
+  border-right: 1px solid #e1e1e4;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  display: flex;
+}
+
+.style-module__jek3sq__sideBar {
+  cursor: pointer;
+  align-items: center;
+  gap: 1.3rem;
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  transition: all .2s;
+  display: flex;
+}
+
+.style-module__jek3sq__sideBar:hover {
+  transform: scale(1.04);
+}
+
+.style-module__jek3sq__sideBar > svg {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  height: 1em;
+}
+
+.style-module__jek3sq__Home_feed_cotainer {
+  padding-left: .8rem;
+  padding-right: .8rem;
+  padding-bottom: 10vh;
+}
+
+.style-module__jek3sq__Home_Extra_contianer {
+  border-left: 1px solid rgba(211, 211, 213, .663);
+  padding-left: 2rem;
+}
+
+.style-module__jek3sq__mobileNavbar {
+  background: #fff;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 6vh;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.style-module__jek3sq__mobileNavbar svg {
+  width: 2.2rem;
+  height: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .style-module__jek3sq__Home_Extra_contianer {
+    display: none;
+  }
+
+  .style-module__jek3sq__HomeContainer {
+    display: block;
+  }
+
+  .style-module__jek3sq__Home_left_container {
+    display: none;
+  }
+
+  .style-module__jek3sq__mobileNavbar {
+    display: flex;
+  }
+}
+
+/* [project]/src/component/navbar/Style.module.css [client] (css) */
+.Style-module__zjqo8a__container {
+  padding: 1rem;
+}
+
+.Style-module__zjqo8a__navbar {
+  justify-content: space-between;
+  display: flex;
+}
+
+.Style-module__zjqo8a__joinHome {
+  cursor: pointer;
+}
+
+.Style-module__zjqo8a__joinButton {
+  cursor: pointer;
+  color: #fff;
+  background-color: brown;
+  border-radius: 10px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=src_898de16a._.css.map*/

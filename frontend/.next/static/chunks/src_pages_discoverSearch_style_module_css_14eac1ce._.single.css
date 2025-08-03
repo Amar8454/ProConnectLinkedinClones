@@ -1,0 +1,25 @@
+/* [project]/src/pages/discoverSearch/style.module.css [client] (css) */
+.style-module__zeRfja__allUserProfile {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 80%;
+}
+
+.style-module__zeRfja__single_UserCard {
+  cursor: pointer;
+  border-radius: 10px;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 1.2rem;
+  padding: 1.3rem;
+  display: flex;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.style-module__zeRfja__userProfile_cont {
+  border-radius: 50%;
+  width: 5%;
+}
+
+/*# sourceMappingURL=src_pages_discoverSearch_style_module_css_14eac1ce._.single.css.map*/

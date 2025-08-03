@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/lenovo/Desktop/LinkdinClone/frontend/src/pages/view_page/%5Busername%5D.jsx"],"sourcesContent":["import { clientServer } from \"@/config\";\r\nimport React from \"react\";\r\n\r\nconst index = ({ userProfile }) => {\r\n  \r\n  return (\r\n    <div>\r\n      <p>{userProfile.userId.name} </p>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default index;\r\n\r\nexport const getServerSideProps = async (context) => {\r\n  const request = await clientServer.get(\"/getUserProfileByUsername\", {\r\n    params: {\r\n      username: context.query.username,\r\n    },\r\n  });\r\n  console.log(request);\r\n  const response = await request.data;\r\n  return { props: { userProfile: request.data.profile } };\r\n};\r\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;;;;;AAEA,MAAM,QAAQ,CAAC,EAAE,WAAW,EAAE;IAE5B,qBACE,qKAAC;kBACC,cAAA,qKAAC;;gBAAG,YAAY,MAAM,CAAC,IAAI;gBAAC;;;;;;;;;;;;AAGlC;uCAEe;AAER,MAAM,qBAAqB,OAAO;IACvC,MAAM,UAAU,MAAM,gHAAA,CAAA,eAAY,CAAC,GAAG,CAAC,6BAA6B;QAClE,QAAQ;YACN,UAAU,QAAQ,KAAK,CAAC,QAAQ;QAClC;IACF;IACA,QAAQ,GAAG,CAAC;IACZ,MAAM,WAAW,MAAM,QAAQ,IAAI;IACnC,OAAO;QAAE,OAAO;YAAE,aAAa,QAAQ,IAAI,CAAC,OAAO;QAAC;IAAE;AACxD","debugId":null}}]
+}

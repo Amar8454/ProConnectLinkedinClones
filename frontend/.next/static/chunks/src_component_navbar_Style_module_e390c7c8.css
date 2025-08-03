@@ -1,0 +1,27 @@
+/* [project]/src/component/navbar/Style.module.css [client] (css) */
+.Style-module__zjqo8a__container {
+  padding: 1rem;
+}
+
+.Style-module__zjqo8a__navbar {
+  justify-content: space-between;
+  display: flex;
+}
+
+.Style-module__zjqo8a__joinHome {
+  cursor: pointer;
+}
+
+.Style-module__zjqo8a__joinButton {
+  cursor: pointer;
+  color: #fff;
+  background-color: brown;
+  border-radius: 10px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=src_component_navbar_Style_module_e390c7c8.css.map*/

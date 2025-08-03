@@ -1,0 +1,99 @@
+.cotainer {
+  padding: 1.3rem;
+  background: rgb(230 230 230);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.backDropContianer {
+  width: 100%;
+  height: 30vh;
+  background: url("https://wallpaperaccess.com/full/1131217.jpg");
+  background-size: cover;
+  position: relative;
+  border-radius: 20px;
+}
+
+.backDropContianer img {
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -30%;
+  left: 8%;
+  text-align: center;
+}
+
+.profileContianer_details {
+  padding-top: 5.6rem;
+}
+
+.profileContianer_data {
+  display: flex;
+  gap: 0.7rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.card_ProfileContainer {
+  display: flex;
+}
+
+.card_ProfileContainer > img {
+  width: 3.4rem;
+  height: auto;
+  height: 3.4rem;
+  object-fit: cover;
+}
+
+.connectedBtn {
+  padding-inline: 0.8rem;
+  padding-block: 0.3rem;
+  background: rgba(3, 93, 183, 0.905);
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.connectBtn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-inline: 0.8rem;
+  padding-block: 0.3rem;
+  outline: none;
+  border: 1px solid rgba(3, 93, 183, 0.905);
+  color: rgba(3, 93, 183, 0.905);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.workHistoryPage {
+  display: flex;
+  gap: 1.3rem;
+  padding-top: 1.4rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.workHistoryCard {
+  min-width: fit-content;
+  padding-inline: 2.5rem;
+  padding-block: 1rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(173 173 173);
+}
+
+@media only screen and (max-width: 600px) {
+  .profileContianer_data {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+}
